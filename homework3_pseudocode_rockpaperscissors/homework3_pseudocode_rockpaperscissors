@@ -1,0 +1,13 @@
+get r, p or s from player1
+get r, p or s from player2
+
+	if any player is p and other is r
+		player with p wins
+	if any player is r and other is s
+		player with r wins
+	if any player is s and other is p
+		player with s wins
+	if player 1 and player 2 match
+		game is tied
+
+Ask players if they want to play again = repeat forever 
