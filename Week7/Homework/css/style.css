@@ -82,14 +82,20 @@ header .logo {
   float: left;
 }
 
-nav .hamburger {
+/*overriding font awesome*/
+.fa {
+  display: none;
+}
+
+
+/*nav .hamburger {
   width: 3em;
   height: .3em;
   background: white;
   border-radius: 1em;
   margin-top: .25em;
   display: none;
-}
+}*/
 
 header nav {
   float: right;
@@ -332,16 +338,22 @@ footer p {
   }
 
   /*Replacing nav with hamburger*/
-  nav .hamburger {
+  .fa {
     display: block;
     margin-left: 450px;
+    
+    color: white;
   }
 
-  header nav ul li {
-    display: inline-block;
-    margin: 0 0 10px 0;
-    font-size: 24px;
-  }
+
+
+
+
+  /*nav .hamburger {
+    display: block;
+    margin-left: 450px;
+  }*/
+
 
   /*Hiding orginal nav*/
   header nav ul li a {
