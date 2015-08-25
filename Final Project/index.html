@@ -1,3 +1,19 @@
+<!-- 
+
+5 - Effort/completion
+5 - Code cleanliness
+5 - Overall command of material
+5 - Leveraging skills learned (using responsive design, HTML/CSS/JS, plugins, etc..)
+
+You did a great job with the menu you built for your sister's restaurant. Using the accordian feature was a great idea. One of the nice things about this project is that it really forces you to think about how information is organized and designed to be presentable. You've done a great job working out these challenges. The transitions between sections are particularly well executed. The yellow accent color was also a nice touch. 
+
+You might consider ways to add a couple of images, to really get visitors thinkgin about food! Also, the background image is pretty pixilated and therefore, not very good for production. 
+
+Your media queries look great and the design holds true at various screen sizes.
+
+You might consider playing around with the .toggle() method in Jquery. There is a lot of unneccessary scrolling from section to section. It would be helpful to collapse an open section before opening the next one. .toggle() will open or close a section based on it's current state.  
+ -->
+
 <!DOCTYPE html>
 <html lang-"en">
 	<head>
@@ -13,9 +29,12 @@
 		            <p>Everygreen Square</p>
 		            <p>565 N. Everygreen Avenue | Woodbury, NJ 08096</p>
 		            <p>Telephone: (856) 384-1188 | (856) 384-1352</p>
+                    <!-- EM: you can link the text if you want the phone number to be dialable using <a href="tel:555-555-5555"> -->
 		            <p>Open 7 days</p>
 		            <p>Mon - Thurs: 11am to 10 pm | Fri &amp; Sat: 11 am to 11pm | Sun: 12 Noon to 10pm</p>
 		            <p>BYOB Welcome!</p>
+
+                    <!-- EM: you might also consider using the <li> tag here, since technically it's a list. -->
 
 <!-- CHINESE MENU -->        
         <div class="cat-1">
@@ -202,3 +221,5 @@
         </div>
     </section>
 </div>
+
+<!-- EM: you are missing a closing body tag and a closing html tag -->
